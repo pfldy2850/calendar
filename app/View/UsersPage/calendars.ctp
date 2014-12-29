@@ -31,7 +31,7 @@
 				</div>
 			</button>
 		</form>
-		<form id = "myMeetingsBtnForm" action = "./meetings">
+		<form id = "myMeetingsBtnForm" action = "./meetings" method="GET">
 			<button class = "mymeetings-btn">
 				<div class = "mymeetings-btn-icon">
 				</div>
@@ -89,21 +89,39 @@
 
 		<div class = "side-below-content">
 			<div class = "side-btns">
-				<button id= "upperBtn" class = "upper-btn">
+				<button id= "upperBtn" class = "side-btn">
 					<div class = "sync-btn-icon">
 					</div>
-					<div class = "sync-btn-text">
-						동기화하기
+					<div class = "side-btn-text">
+						동기화
 					</div>
 				</button>
 
-				<button id="belowBtn" class = "below-btn">
-					<div class = "edit-btn-icon">
+				<button id="createBtn" class = "side-btn hidden">
+					<div class = "create-btn-icon">
 					</div>
-					<div class = "edit-btn-text">
-						수정/추가하기
+					<div class = "side-btn-text">
+						추가
 					</div>
 				</button>
+
+				<button id="deleteBtn" class = "side-btn hidden">
+					<div class = "delete-btn-icon">
+					</div>
+					<div class = "side-btn-text">
+						삭제
+					</div>
+				</button>
+
+				<button id="belowBtn" class = "side-btn">
+					<div class = "edit-btn-icon">
+					</div>
+					<div class = "side-btn-text">
+						수정/추가/삭제
+					</div>
+				</button>
+
+
 			</div>
 		</div>
 	</div>

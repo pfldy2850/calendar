@@ -1,4 +1,4 @@
-﻿var upperBtn, belowBtn, deleteBtn, createBtn;
+var upperBtn, belowBtn, deleteBtn, createBtn;
 
 window.onload = function() {
 	upperBtn = document.getElementById("upperBtn");

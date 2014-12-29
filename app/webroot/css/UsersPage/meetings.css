@@ -316,8 +316,7 @@
 	background: gray;
 }
 
-
-.sync-btn {
+.side-btn {
 	position: relative;
 
 	width: 100%;
@@ -346,35 +345,6 @@
 	background-size: 30px 30px;
 }
 
-.sync-btn-text {
-	position: relative;
-
-	height: 30px;
-
-	float: left;
-	margin-left: 10px;
-
-	font-size: 20px;
-}
-
-.edit-btn {
-	position: relative;
-
-	width: 100%;
-
-	height: 30px;
-
-	background:white;
-
-	padding: 0;
-	margin: 0;
-	border: 0;
-
-	outline: 0;
-
-	overflow: hidden;
-}
-
 .edit-btn-icon {
 	position: relative;
 
@@ -386,7 +356,18 @@
 	background-size: 30px 30px;
 }
 
-.edit-btn-text {
+.cancel-btn-icon {
+	position: relative;
+
+	width: 30px;
+	height: 30px;
+
+	float: left;
+	background-image:url("/calendar/app/webroot/img/cancel2.png");
+	background-size: 30px 30px;
+}
+
+.side-btn-text {
 	position: relative;
 
 	height: 30px;
@@ -395,4 +376,37 @@
 	margin-left: 10px;
 
 	font-size: 20px;
+}
+
+.delete-btn-icon {
+	position: relative;
+
+	width: 30px;
+	height: 30px;
+
+	float: left;
+	background-image:url("/calendar/app/webroot/img/delete.png");
+	background-size: 30px 30px;
+}
+
+.update-btn-icon {
+	position: relative;
+
+	width: 30px;
+	height: 30px;
+
+	float: left;
+	background-image:url("/calendar/app/webroot/img/update.png");
+	background-size: 30px 30px;
+}
+
+.create-btn-icon {
+	position: relative;
+
+	width: 30px;
+	height: 30px;
+
+	float: left;
+	background-image:url("/calendar/app/webroot/img/create.png");
+	background-size: 30px 30px;
 }
